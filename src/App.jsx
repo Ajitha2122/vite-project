@@ -1,8 +1,8 @@
-import Logo from "./components/Logo.jsx";
+import Search from "./components/Search";
 function App() {
   return (
     <div>
-      <Logo />
+      <Search />
     </div>
   );
 }

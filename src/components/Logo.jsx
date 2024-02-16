@@ -1,10 +1,9 @@
-import imgLogo from "../assets/hearder.png";
-import SideBar from "./SideBar";
+import Profile from "../assets/Profile.png";
+import Layout from "./Layout";
 function Logo() {
   return (
     <div>
-      <img src={imgLogo} alt="side bar Logo" width={"20px"} height={"20px"} />
-      <SideBar image={imgLogo} title="Linglee" />
+      <Layout image={Profile} />
     </div>
   );
 }
